@@ -1,0 +1,148 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2020, 1:17:29 AM
+    Author     : manish
+*/*{
+margin:0;
+padding:0;
+}
+
+.cover{
+background-image:url('../images/mn.jpg');
+background-size:100% 100%;
+width:100%;
+height:100vh;
+}
+
+.nav-bar{
+width:100%;
+height:90px;
+background-color:rgba(0, 0, 0, .1);
+}
+
+.left-bar{
+width:25%;
+height:100%;
+line-height:80px;
+display:inline-block;
+}
+
+.left-bar h4{
+padding-left:50px;
+font-weight:bold;
+color:white;
+font-size:45px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.right-bar{
+width:70%;
+height:100%;
+margin-left: 70px;
+text-align: right;
+display:inline-block;
+}
+.right-bar ul li
+{
+font-family: 'Montserrat', sans-serif;
+display:inline-block;
+color:white;
+list-style:none;
+font-size:15px;
+font-weight:bold;
+line-height:80px;
+margin-left:40px;
+text-transform:uppercase;
+}
+
+
+.right-bar ul li:hover{
+cursor:pointer;
+color:orange;
+}
+
+.right-bar ul ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.right-bar ul ul li {display: inline-block;}
+.right-bar ul ul li:hover {background: #555;}
+.right-bar ul ul li:hover ul {display: block;}
+.right-bar ul ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+  right:0;
+}
+.right-bar ul ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+.right-bar ul ul li ul li a {display:block !important;} 
+.right-bar ul ul li ul li:hover {background: #666;}
+
+.hero-text{
+width:100%;
+margin-top:180px;
+text-transform:uppercase;
+text-align:center;
+color:white;
+}
+
+.hero-text h4{
+font-size:14px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text h1{
+font-size:62px;
+font-family: 'Montserrat', sans-serif;
+font-weight:700;
+margin:14px 0px;
+}
+
+.hero-text h3{
+font-size:12px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text h2{
+font-size:30px;
+font-family: 'Montserrat', sans-serif;
+font-weight:700;
+margin:14px 0px;
+}
+
+#he 
+{
+	background-image: url('../images/m.jpg');
+	background-size: 1000px,1000px;
+	font-size:30px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:700;
+	text-align: center;
+	color: black; 
+	padding-bottom: 40px;
+	margin-bottom:  5px; 
+}
+
+#btn-1,#btn-2{
+border:none;
+background:linear-gradient(45deg,white,transparent);
+font-size:15px;
+font-weight:bold;
+text-transform:uppercase;
+line-height:40px;
+width:150px;
+font-family: 'Montserrat', sans-serif;
+margin-top:25px;
+border:3px solid white;
+cursor:pointer;
+}
+
+
